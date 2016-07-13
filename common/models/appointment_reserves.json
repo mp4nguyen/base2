@@ -1,0 +1,9 @@
+{
+  "name": "BAppointmentReserves",
+  "base": "AppointmentReserves",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

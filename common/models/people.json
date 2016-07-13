@@ -1,0 +1,9 @@
+{
+  "name": "BPeople",
+  "base": "People",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

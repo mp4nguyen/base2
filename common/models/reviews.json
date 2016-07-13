@@ -1,0 +1,9 @@
+{
+  "name": "CReviews",
+  "base": "Reviews",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

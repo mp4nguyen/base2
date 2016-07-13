@@ -1,0 +1,15 @@
+{
+  "name": "BRostersV",
+  "base": "RostersV",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "Calendars": {
+      "type": "hasMany",
+      "model": "BCalendarsV",
+      "foreignKey": "rosterId"
+    }            
+  },
+  "acls": [],
+  "methods": []
+}

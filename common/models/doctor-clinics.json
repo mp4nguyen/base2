@@ -1,0 +1,20 @@
+{
+  "name": "CDoctorClinics",
+  "base": "DoctorClinics",
+  "properties": {},
+  "validations": [],
+  "relations": {
+	    "Doctors": {
+	      "type": "belongsTo",
+	      "model": "CDoctors",
+	      "foreignKey": "doctorId"
+	    },
+	    "Clinics": {
+	      "type": "belongsTo",
+	      "model": "BClinics",
+	      "foreignKey": "clinicId"
+	    }      	  	
+  	},
+  "acls": [],
+  "methods": {}
+}

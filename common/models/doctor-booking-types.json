@@ -1,0 +1,20 @@
+{
+  "name": "CDoctorBookingTypes",
+  "base": "DoctorBookingTypes",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "BookingTypes": {
+      "type": "belongsTo",
+      "model": "BBookingTypes",
+      "foreignKey": "bookingTypeId"
+    },
+    "Doctors": {
+      "type": "belongsTo",
+      "model": "CDoctors",
+      "foreignKey": "doctorId"
+    }    
+  	},
+  "acls": [],
+  "methods": {}
+}

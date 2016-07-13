@@ -1,0 +1,10 @@
+{
+  "name": "BCompanyPatients",
+  "base": "CompanyPatients",
+  "properties": {},
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

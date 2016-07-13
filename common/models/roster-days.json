@@ -1,0 +1,9 @@
+{
+  "name": "CRosterDays",
+  "base": "RosterDays",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

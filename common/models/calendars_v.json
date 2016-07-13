@@ -1,0 +1,16 @@
+{
+  "name": "BCalendarsV",
+  "base": "CalendarsV",
+  "properties": {
+  },
+  "validations": [],
+  "relations": {
+    "Doctor": {
+      "type": "belongsTo",
+      "model": "BDoctors",
+      "foreignKey": "doctorId"
+    }  	
+  },
+  "acls": [],
+  "methods": []
+}

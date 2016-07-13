@@ -1,0 +1,33 @@
+{
+  "name": "companies",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-connector-mongodb": "^1.15.2",
+    "loopback-connector-mysql": "^2.2.1",
+    "loopback-datasource-juggler": "^2.39.0",
+    "moment": "^2.13.0",
+    "serve-favicon": "^2.0.1",
+    "socket.io": "^1.4.8",
+    "socket.io-redis": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6",
+    "loopback-sdk-angular": "github:qeti/loopback-sdk-angular#188-angular2-support",
+    "loopback-sdk-angular-cli": "github:qeti/loopback-sdk-angular-cli#37-angular2-support"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "companies"
+}

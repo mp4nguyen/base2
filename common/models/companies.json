@@ -1,0 +1,30 @@
+{
+  "name": "BCompanies",
+  "base": "Companies",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "Clinics": {
+      "type": "hasMany",
+      "model": "BClinics",
+      "foreignKey": "companyId"
+    },
+    "Galleries": {
+      "type": "hasMany",
+      "model": "CGallery",
+      "foreignKey": "companyId"
+    },
+    "Reviews": {
+      "type": "hasMany",
+      "model": "CReview",
+      "foreignKey": "companyId"
+    },
+    "Doctors": {
+      "type": "hasMany",
+      "model": "BDoctors",
+      "foreignKey": "companyId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

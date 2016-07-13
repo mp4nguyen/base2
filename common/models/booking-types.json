@@ -1,0 +1,17 @@
+{
+  "name": "BBookingTypes",
+  "base": "BookingTypes",
+  "properties": {},
+  "validations": [],
+  "relations": {
+	 "Clinics": {
+	      "type": "hasMany",
+	      "model": "BClinics",
+	      "foreignKey": "bookingTypeId",
+	      "through": "BClinicBookingTypes",
+	  	  "keyThrough": "clinicId"	      
+	    }
+  	},
+  "acls": [],
+  "methods": {}
+}

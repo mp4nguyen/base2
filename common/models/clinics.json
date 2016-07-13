@@ -1,0 +1,39 @@
+{
+  "name": "BClinics",
+  "base": "Clinics",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "BookingTypes": {
+      "type": "hasMany",
+      "model": "BBookingTypes",
+      "foreignKey": "clinicId",
+      "through": "BClinicBookingTypes",
+	  "keyThrough": "bookingTypeId"
+    },
+    "Doctors": {
+      "type": "hasMany",
+      "model": "BDoctors",
+      "foreignKey": "clinicId",
+      "through": "CDoctorClinics",
+	  "keyThrough": "doctorId"
+    },
+    "Calendars": {
+      "type": "hasMany",
+      "model": "BCalendarsV",
+      "foreignKey": "clinicId"
+    },    
+    "Rosters": {
+      "type": "hasMany",
+      "model": "BRostersV",
+      "foreignKey": "workingSiteId"
+    },        
+      "Company": {
+        "type": "belongsTo",
+        "model": "CCompanies",
+        "foreignKey": "companyId"
+      }                   
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "BCalendars",
+  "base": "Calendars",
+  "properties": {
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": []
+}

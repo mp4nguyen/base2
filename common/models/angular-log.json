@@ -1,0 +1,9 @@
+{
+  "name": "AngularLog",
+  "base": "OAngularLog",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

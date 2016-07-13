@@ -1,0 +1,9 @@
+{
+  "name": "CGallery",
+  "base": "Gallery",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

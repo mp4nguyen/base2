@@ -1,0 +1,9 @@
+{
+  "name": "BPatientRelationships",
+  "base": "PatientRelationships",
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

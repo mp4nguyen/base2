@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../../models/common/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "BBookingTypes": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BClinicBookingTypes": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CDoctorBookingTypes": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CDoctorClinics": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BDoctors": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CGallery": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BPeople": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CRosters": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CRosterDays": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CRosterPlaces": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CReviews": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "CRosterTimes": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BClinics": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BCompanies": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BCalendars": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BCalendarsV": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BRostersV": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BPatients": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BPatientRelationships": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BPatientAppointments": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BCompanyPatients": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BAppointments": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BAppointmentReserves": {
+    "dataSource": "obs",
+    "public": true
+  },
+  "BUsers": {
+    "dataSource": "obs",
+    "public": true
+  }
+}
