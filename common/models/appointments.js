@@ -1,3 +1,5 @@
+var moment = require('moment');
+
 module.exports = function(BAppointments) {
 
   BAppointments.observe('after save', function(ctx, next) {
@@ -46,8 +48,12 @@ module.exports = function(BAppointments) {
           var patientAppointments = {
               "apptId": 0,
               "patientId": data.patientId,
+              "patientPersonId": data.personId,
               "calendarId": ctx.instance.calendarId,
-              "requireDate": "2016-07-01",
+              "requireDate": moment(ctx.instance.appointmentTime).format('YYYY-MM-DD HH:mm:ss'),
+              "fromTime": moment(ctx.instance.fromTime).format('YYYY-MM-DD HH:mm:ss'),
+              "toTime": moment(ctx.instance.toTime).format('YYYY-MM-DD HH:mm:ss'),
+              "duration": ctx.instance.duration,
               "description": ctx.instance.reason,
               "apptType": "string",
               "apptStatus": "Pending",
